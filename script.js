@@ -1,6 +1,6 @@
 // scripts.js
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzZ5DNWu4p3eGg9hJQPa14dyEOoZd6GuWLaquYnbjpu0YU4Pdh3bOKNwHuJhu-qWxr8ww/exec'; // Replace with your Google Apps Script URL
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz9EdYPvTFMbR-ymM-g-nRo-pshPoBFqA24iES640zqnSpfF96NrTvyYRgqnzF_p0Ljag/exec'; // Replace with your Google Apps Script URL
 const form = document.forms['submit-to-google-sheet'];
 
 
