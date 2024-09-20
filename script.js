@@ -1,25 +1,13 @@
-// scripts.js
+const signUpButton=document.getElementById('signUpButton');
+const signInButton=document.getElementById('signInButton');
+const signInForm=document.getElementById('signIn');
+const signUpForm=document.getElementById('signup');
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbziwymUB8ikvJShHohQpMWzA6T863QzGllTrUo1lx_KpjnV5OiUM8RDTnfhk0BqOmuMKw/exec'; // Replace with your Google Apps Script URL
-const form = document.forms['submit-to-google-sheet'];
-
-
-form.addEventListener('submit', e => {
-    e.preventDefault();
-    
-    const formData = new FormData(form);
-
-  fetch(scriptURL, {
-    method: 'POST',
-    body: formData
-  })
-    .then(response => response.json())
-    .then(data => {
-      console.log('Success!', data);
-      alert('Form submitted successfully!');
-    })
-    .catch(error => console.error('Error!', error.message));
-});
-
-
- 
+signUpButton.addEventListener('click',function(){
+    signInForm.style.display="none";
+    signUpForm.style.display="block";
+})
+signInButton.addEventListener('click', function(){
+    signInForm.style.display="block";
+    signUpForm.style.display="none";
+}) 

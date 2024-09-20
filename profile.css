@@ -1,0 +1,62 @@
+body {
+    margin: 0; 
+    padding: 100px;
+    background: linear-gradient(150deg, #1f1c2c, #d97dfb); /* Match previous backgrounds */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px; /* Consistent width for the container */
+    margin: auto;
+    padding: 20px;
+    background-color: #333; /* Background color to match card design */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 28px; /* Increased font size */
+}
+
+.info {
+    font-weight: 400;
+    color: white; /* Text color for information */
+    margin: 10px 0; /* Margin between info sections */
+    font-size: 18px; /* Font size for info */
+}
+
+span {
+    font-weight: 600;
+    font-size: 20px; /* Font size for user data */
+    color: #007bff; /* Color for highlighted data */
+}
+
+button {
+    color: white;
+    background-color: #007bff; /* Button color */
+    padding: 10px; /* Adjusted padding */
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    width: 100%; /* Full width button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Space above the button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button color on hover */ 
+}
+
+.navbar-brand {
+    color: white; /* Change the text color to white */
+    text-decoration: none; /* Remove underline if needed */
+}
+
+.navbar-brand:hover {
+    color: rgb(0, 132, 255); /* Change color on hover */
+} 
+ 
